@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('/Portfolio Background.PNG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: larger;
+}
+
+.text-container {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem;
+  max-width: 800px;
+}
+
+.text-container ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.content-wrap {
+  flex: 1;
+}
+
+footer {
+  flex-shrink: 0;
+}
