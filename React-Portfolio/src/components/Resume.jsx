@@ -6,7 +6,7 @@ const Resume = () => {
             <div className="container">
                 <h2 className="text-center mb-4">Resume</h2>
                 <div className="text-center mb-3">
-                    <a href="link to my resume" target="_blank" className="btn btn-primary">Download My Resume</a>
+                    <a href="Kyler Resume.pdf" download="Kyler Resume.pdf" target="_blank" className="btn btn-primary">Download My Resume</a>
                 </div>
                 <h3 className="text-center mb-3">Proficiencies</h3>
                 <div className="text-center">
