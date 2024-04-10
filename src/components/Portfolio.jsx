@@ -8,7 +8,7 @@ const Portfolio = () => {
         { title: "Weather Dashboard", image: "/weatherdashboard.png", link: "https://kylerjansson.github.io/Weather-Dashboard/", github: "https://github.com/KylerJansson/Weather-Dashboard" },
         { title: "Password Generator", image: "/passwordgenerator.png", link: "https://kylerjansson.github.io/Password-Generator/", github: "https://github.com/KylerJansson/Password-Generator" },
         { title: "Work Day Scheduler", image: "/workdayscheduler.png", link: "https://kylerjansson.github.io/Work-Day-Scheduler/", github: "https://github.com/KylerJansson/Work-Day-Scheduler" },
-        { title: "Javascript Quiz", image: "/javascriptquiz.png", link: "https://kylerjansson.github.io/Javascript-Quiz/", github: "https://github.com/KylerJansson/Javascript-Quiz" }
+        { title: "Feastbook", image: "/Feastbook.png", link: "https://feastbook.onrender.com/", github: "https://github.com/jessenay/Recipe-Sharing" }
     ];
     return (
         <div className="container mt-5">
